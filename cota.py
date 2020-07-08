@@ -42,7 +42,7 @@ while True:
             data = data + ["0"]
     
     data= data_cleanup(data)
-    message = "Total infected = {}, New Case = {}, Total Deaths = {}, New Deaths = {}, Recovred = {}, Active Case = {}, Serious Critical = {}".format(*data)
+    message = "Terinfeksi = {}, Kasus Baru = {}, Total Meninggal = {}, Meninggal = {}, Sembuh = {}".format(*data)
 
     
     if data_check != data:
